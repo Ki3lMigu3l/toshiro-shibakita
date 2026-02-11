@@ -13,7 +13,6 @@ services:
 
   app:
     build: ./app
-    container_name: dio_app
     environment:
       DB_HOST: db
       DB_USER: ${MYSQL_USER}
