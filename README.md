@@ -58,6 +58,11 @@ Scale the application service:
 docker compose up -d --scale app=3
 ```
 
+Load Balancing Validation
+<div align="left">
+  <img src="./docs/load-balance-check.png" alt="Load Balancing Check" width="800"/>
+</div>
+
 Reload the application endpoint and observe different container hostnames,
 confirming request distribution via NGINX.
 
